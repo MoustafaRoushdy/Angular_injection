@@ -1,0 +1,16 @@
+<table class="table">
+    <thead>
+        <th>Id</th>
+        <th>Age</th>
+        <th>Name</th>
+        <th>Department</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of stds">
+            <td>{{item.stdId}}</td>
+            <td>{{item.stdAge}}</td>
+            <td>{{item.stdName}}</td>
+            <td>{{item.stdDeptNo}}</td>
+        </tr>
+    </tbody>
+</table>
